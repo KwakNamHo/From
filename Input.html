@@ -3,35 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="all.css" />
     <title>main</title>
   </head>
   <body>
     <var class="Top">
-        <div class="TopVer">
+      <div class="TopVer">
         <div></div>
-            <ul>
-                <li><a href="/index.html">Main</a></li>
-                <li><a href="/Tabel.html">Tabel</a></li>
-                <li><a href="/Input.html">Input</a></li>
-                <li><a href="/Audio_Vidio.html">Audio_Vidio</a></li>
-        </div>
+        <ul>
+          <li><a href="/index.html">Main</a></li>
+          <li><a href="/Tabel.html">Tabel</a></li>
+          <li><a href="/Input.html">Input</a></li>
+          <li><a href="/Audio_Vidio.html">Audio_Vidio</a></li>
+        </ul>
+      </div>
     </var>
     <form action="#" onsubmit="alert('해당 기능 구현X')">
-        <fieldset>
-            <legend>로그인</legend>
-            <div>
-                <label for="id">ID:</label>
-                <input type="text" maxlength="20" autofocus required id="id"
-                placeholder="아이디를 입력하세요">
-            </div>  
-            <div><label for="pass">Pass:</label>
-                <input type="password" id="pass" minlength="12" maxlength="20" placeholder="12자 이상 입력" >
-            </div>
-            <input type="submit" value="로그인">
-            <input type="submit" value="회원가입" required="회원가입 구현 X">
-            <input type="reset" value="초기화">
-        </fieldset> 
+      <fieldset>
+        <legend>로그인</legend>
+        <div>
+          <label for="id">ID:</label>
+          <input
+            type="text"
+            maxlength="20"
+            autofocus
+            required
+            id="id"
+            placeholder="아이디를 입력하세요"
+          />
+        </div>
+        <div>
+          <label for="pass">Pass:</label>
+          <input
+            type="password"
+            id="pass"
+            minlength="12"
+            maxlength="20"
+            placeholder="12자 이상 입력"
+          />
+        </div>
+        <input type="submit" value="로그인" />
+        <input type="submit" value="회원가입" required="회원가입 구현 X" />
+        <input type="reset" value="초기화" />
+      </fieldset>
     </form>
   </body>
 </html>
